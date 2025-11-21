@@ -98,3 +98,10 @@ A página exibe:
 🔴 Lista de erros, ou
 
 🟢 Resumo completo da inscrição
+
+
+Acesso à Aplicação
+
+Acesse o projeto hospedado no GitHub Pages pelo link abaixo:
+
+👉 https://gucastilho.github.io/GS-web-dev/
