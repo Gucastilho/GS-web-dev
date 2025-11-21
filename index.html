@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyes.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Inscrição no Programa FutureSkills 2025</h2>
+
+    <label>Nome Completo:
+        <input type="text" id="nomeCompleto">
+    </label>
+
+    <label>CPF:
+        <input type="text" id="cpf" placeholder="000.000.000-00">
+    </label>
+
+    <label>E-mail:
+        <input type="text" id="email">
+    </label>
+
+    <label>Selecione uma Habilidade:
+        <select id="habilidadeSelect">
+            <option value="">Selecione...</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="IA">Inteligência Artificial</option>
+            <option value="Comunicação">Comunicação</option>
+        </select>
+    </label>
+
+    <button onclick="adicionarHabilidade()">Adicionar Habilidade</button>
+
+    <div id="lista-habilidades"></div>
+
+    <label>Tipo de Interesse:
+        <select id="interesse">
+            <option value="">Escolha...</option>
+            <option value="Trabalho Remoto">Trabalho Remoto</option>
+            <option value="IA e Automação">IA e Automação</option>
+            <option value="Sustentabilidade">Sustentabilidade</option>
+            <option value="Desenvolvimento de Carreira">Desenvolvimento de Carreira</option>
+        </select>
+    </label>
+
+    <button onclick="validarFormulario()">Enviar Formulário</button>
+
+    <div id="feedback"></div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

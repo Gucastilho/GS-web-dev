@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+#lista-habilidades {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f0f0f0;
+  min-height: 40px;
+}
+#feedback {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eaeaea;
+  border-radius: 5px;
+}
+button {
+  margin-top: 12px;
+  padding: 8px 12px;
+}
